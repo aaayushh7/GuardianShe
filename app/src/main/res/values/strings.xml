@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GuardianShe</string>
+    <string name="background_animation_description">Background Animation</string>
+    <string name="menu_icon_description">Menu Icon</string>
+    <string name="send_sos_to">Connected!\nSOS will be sent to:</string>
+    <string name="start_button_label">Start</string>
+    <string name="stop_button_label">Stop</string>
+</resources>

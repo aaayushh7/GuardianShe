@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".RegisterNumberActivity">
+
+    <RelativeLayout
+        android:layout_width="265dp"
+        android:layout_height="278dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="216dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/newfont"
+            android:text="Number of your superman \n ♡"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_margin="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/numberEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/newfont"
+                android:hint="Number"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                android:maxLength="10"
+                android:textAlignment="center" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/gren"
+            android:fontFamily="@font/newfont"
+            android:onClick="saveNumber"
+            android:text="Finish"
+            android:textColor="@color/white"
+            app:cornerRadius="30dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

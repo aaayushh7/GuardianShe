@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/background_frame1"
+        android:duration="1000" />
+    <item
+        android:drawable="@drawable/background_frame2"
+        android:duration="1000" />
+    <!-- Add more frames as needed -->
+
+</animation-list>
